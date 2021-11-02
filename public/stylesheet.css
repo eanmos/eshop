@@ -1,0 +1,165 @@
+html, body {
+	background: rgba(0, 0, 0, 0.03);
+	padding: 0;
+	margin: 0;
+
+	font: 14px 'PT Sans';
+}
+
+body {
+	padding-top: 30px;
+	padding-left: 60px;
+	padding-bottom: 30px;
+}
+
+.Sidebar {
+	background: rgba(255, 255, 255, 1);
+	width: 280px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.07);
+	border-radius: 4px;
+	padding: 10px 0;
+	padding-bottom: 0;
+	height: fit-content;
+}
+
+.SidebarHeader {
+	margin: 15px 0;
+	text-decoration: uppercase;
+	padding: 0 16px;
+	font-weight: bold;
+}
+
+.SidebarEntry {
+	padding: 6px 16px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.SidebarEntry:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.SidebarEntryLink {
+	color: black;
+	text-decoration: none;
+}
+
+.NoBorder {
+	border: none;
+}
+
+.GenrePath {
+	display: flex;
+}
+
+.BookShowcase {
+	margin-left: 30px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;
+	grid-row-gap: 40px;
+}
+
+.Book {
+	width: 180px;
+}
+
+.Book img {
+	width: 90%;
+}
+
+.currentPrice {
+	font-size: 17px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.oldPrice {
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: line-through;
+}
+
+.Book .price {
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+.Book .title {
+	margin-bottom: 5px;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+.Book .title:hover {
+	text-decoration: underline;
+	text-decoration-color: #ccc;
+	text-underline-offset: 2px;
+	cursor: pointer;
+}
+
+.Book .author {
+	line-height: 1.5;
+}
+
+.Book .author:hover {
+	text-decoration: underline;
+	text-decoration-color: #ccc;
+	text-underline-offset: 2px;
+	cursor: pointer;
+}
+
+.AddToCartButton {
+	background: rgba(0, 0, 0, 0);
+	border: 1 px solid #c9c9c9;
+	box-shadow: none;
+	color: #595959;
+	filter: none;
+	font: "PT Sans";
+	font: 14px "PT Sans";
+	border-radius: 4px;
+	border: 1px solid #999;
+	padding: 4px 8;
+	text-transform: uppercase;
+	margin-right: 8px;
+}
+
+.AddToCartButton:hover {
+	background: #ff8700;
+	cursor: pointer;
+	color: white;
+	border: 1px solid #fc8533;
+}
+
+.Book .actions {
+	display: flex;
+	margin-top: 8px;
+	align-items: center;
+}
+
+.Book .LikeButton {
+	font-size: 20px;
+}
+
+.Book img {
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+.percent {
+	display: inline-block;
+	padding: 2px 8px;
+	background: #ec0002;
+	border-radius: 4px;
+	color: white;
+	transform: rotate(-4deg);
+	font: 14px "PT Sans";
+	margin-right: 10px;
+}
+
+.duration {
+	font: bold 11px "PT Sans";
+}
+
+.discount {
+	margin: 8px auto;
+}
